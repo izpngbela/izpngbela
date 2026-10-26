@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=32&duration=3500&pause=900&color=800000&center=true&vCenter=true&width=1000&lines=Hello%2C+world!+%F0%9F%8C%8E;I'm+Izabela+Gomes;a+Back-end+Developer;in+pursuit+of+innovation+and+learning.;Be+welcome!+%3A%29)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=32&duration=3500&pause=900&color=800000&center=true&vCenter=true&width=1000&lines=Hello%2C+world!+%F0%9F%8C%8E;I'm+Izabela+Gomes;a+Full+Stack+Developer;Angular+%2B+Java+%E2%98%95;and+a+QA+Tester+%F0%9F%90%9E;in+pursuit+of+innovation+and+learning.;Be+welcome!+%3A%29)](https://git.io/typing-svg)
 
 <a href="https://www.instagram.com/izgpbela/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
 <a href="https://youtube.com/@izabelapereira20" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
@@ -15,18 +15,24 @@
 
 ## 🍷 `whoami`
 
-```java
-@Service
-public class IzabelaGomes implements BackendDeveloper {
+```@Service
+public class IzabelaGomes implements FullStackDeveloper, QATester {
 
-    private final String role      = "Back-end Developer";
-    private final String location  = "Brasil 🇧🇷";
-    private final String[] mainStack = { "Java", "Spring", "PHP", "Laravel", "Node.js" };
-    private final String[] learning  = { "Cloud (AWS)", "Docker", "Arquitetura de software" };
+    private final String[] roles    = { "Full Stack Developer", "QA Tester" };
+    private final String location   = "Brasil 🌎";
+    private final String[] frontend = { "Angular", "TypeScript", "React", "Tailwind" };
+    private final String[] backend  = { "Java", "Spring", "PHP", "Laravel", "Node.js" };
+    private final String[] testing  = { "Testes manuais", "Testes automatizados", "Testes de API" };
+    private final String[] learning = { "Cloud (AWS)", "Docker", "Arquitetura de software" };
 
     @Override
     public String motto() {
         return "Em busca de inovação e aprendizado contínuo.";
+    }
+
+    @Test
+    public void findBugsBeforeUsersDo() {
+        assertTrue(qualityMatters()); // nenhum bug escapa 🐞
     }
 
     @Override
