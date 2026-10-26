@@ -1,0 +1,11 @@
+{
+  "type": "normal",
+  "fileName": "profile-wine.svg",
+  "backgroundColor": "#0d1117",
+  "foregroundColor": "#c9d1d9",
+  "strongColor": "#FF6347",
+  "weakColor": "#8b949e",
+  "radarColor": "#800000",
+  "growingAnimation": true,
+  "contribColors": ["#1a1013", "#3d0f12", "#5C2A2A", "#800000", "#B22222"]
+}
